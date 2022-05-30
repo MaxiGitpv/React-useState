@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+h2 {
+    margin: 0;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.article {
+    background-color: white;
+    padding: 20px;
+    width: min(400px, 80%);
+    box-shadow: 1px 5px 10px 0 #000a;
+    border-radius: 20px;
+    position: relative;
+}
+.article__title {
+    font-size: 30px;
+}
+.article__list {
+    font-size: 25px;
+}
+
+.article__btn {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 50%;
+    transform: translate(-45%);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 0 #000;
+    transition: box-shadow 200ms ease;
+}
+.article__btn:active {
+    box-shadow: 0 0 0 0 #000;
+    transition: box-shadow 200ms ease;
+}
+.galery {
+    background-color: white;
+    padding: 20px;
+    width: min(400px, 80%);
+    box-shadow: 1px 5px 10px 0 #000a;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.galery__img {
+    text-align: center;
+
+}
+.description {
+    background-color: white;
+    padding: 20px;
+    width: min(400px, 80%);
+    box-shadow: 1px 5px 10px 0 #000a;
+    height: 300px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.description h2 {
+    text-align: center;
+}
